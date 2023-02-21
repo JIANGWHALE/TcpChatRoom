@@ -488,3 +488,4 @@ BOOL CGUIclientDlg::PreTranslateMessage(MSG* pMsg)
 	}
 	return CDialogEx::PreTranslateMessage(pMsg);
 }
+
