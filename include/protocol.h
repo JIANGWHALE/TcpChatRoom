@@ -25,7 +25,7 @@ enum Cmd
 	S2C_PRICHAT,				//私聊
 };
 
-#pragma pack(push)
+#pragma pack(push)//1字节对齐，节省网络流量
 #pragma pack(1)
 /**
  * @brief 协议包头
